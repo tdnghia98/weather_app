@@ -9,6 +9,7 @@ class WeatherApp extends StatelessWidget {
     return MaterialApp(
       title: 'Weather App',
       home: LoadingScreen(),
+      theme: ThemeData.dark(),
     );
   }
 }
